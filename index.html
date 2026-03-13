@@ -1,35 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Reflective Oracle</title>
+<title>Silent Answers</title>
 
 <link rel="stylesheet" href="css/styles.css">
+
 </head>
 
 <body>
 
-<main class="container">
+<div class="app-wrapper">
 
-<h1 class="title">Reflective Oracle</h1>
+<div class="app-card">
 
-<p class="instructions">
-Hold your question silently in your mind.  
-When you feel ready, choose a path below.
+<h1 class="title">Silent Answers</h1>
+
+<p class="subtitle">
+Hold a question quietly in your mind.
+When you feel ready, choose a path.
 </p>
 
 <div class="button-group">
-<button id="direct-btn">Get a Direct Answer</button>
-<button id="krishna-btn">Seek Krishna’s Guidance</button>
+
+<button id="direct-btn" class="btn primary">
+Get a Direct Answer
+</button>
+
+<button id="krishna-btn" class="btn secondary">
+Seek Krishna’s Guidance
+</button>
+
 </div>
 
-<div id="result-box">
-Hold your question in mind. When ready, choose a path.
+<div id="result-box" class="result-box">
+Your answer will appear here.
 </div>
 
-</main>
+</div>
+
+</div>
 
 <script src="js/data.js"></script>
 <script src="js/random.js"></script>
