@@ -32,3 +32,11 @@ renderResult(guidance.text);
 
 directBtn.addEventListener("click", handleDirectAnswer);
 krishnaBtn.addEventListener("click", handleKrishnaGuidance);
+
+if ("serviceWorker" in navigator) {
+
+navigator.serviceWorker
+.register("service-worker.js")
+.then(() => console.log("Service Worker Registered"));
+
+}

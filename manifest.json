@@ -1,0 +1,21 @@
+{
+"name": "Silent Answers",
+"short_name": "Silent Answers",
+"start_url": ".",
+"display": "standalone",
+"background_color": "#ffffff",
+"theme_color": "#efe9dc",
+"description": "Receive reflective answers by silently holding a question in mind.",
+"icons": [
+{
+"src": "icons/icon-192.png",
+"sizes": "192x192",
+"type": "image/png"
+},
+{
+"src": "icons/icon-512.png",
+"sizes": "512x512",
+"type": "image/png"
+}
+]
+}
